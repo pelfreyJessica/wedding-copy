@@ -1,0 +1,45 @@
+.nav {
+  &__list {
+    opacity: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+
+    @media (min-width: 700px) {
+      opacity: 1;
+    }
+  }
+
+  &.is-open {
+    width: 100%;
+
+    .nav__list {
+      transition: opacity 1s ease-in;
+      opacity: 1;
+      position: absolute;
+      top: 110px;
+      left: 0;
+      flex-direction: column;
+      align-items: center;
+      z-index: 20;
+      width: 100%;
+
+      .nav__li {
+        margin: 8px 0;
+      }
+
+      .nav__item {
+        font-size: 40px;
+      }
+    }
+  }
+
+  &.is-hidden {
+    @media (max-width: 699px) {
+      opacity: 0;
+      height: 0;
+    }
+  }
+}

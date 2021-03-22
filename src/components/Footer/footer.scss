@@ -1,0 +1,15 @@
+.footer {
+  padding-bottom: 130px;
+
+  &__heading {
+    border-bottom: 3px solid #b8d9a5;
+    width: 150px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin: 10px 0 20px;
+  }
+
+  &__date {
+    font-family: "Montserrat", sans-serif;
+  }
+}

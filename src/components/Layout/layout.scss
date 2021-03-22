@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  border: solid 1px #05065a;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #b8d9a5;
+
+  .subheading {
+    font-size: 30px;
+
+    @media (min-width: 600px) {
+      font-size: 60px;
+    }
+  }
+}
+
+.hideOnMobile {
+  display: none;
+
+  @media (min-width: 600px) {
+    display: inline-block;
+  }
+}
+
+main {
+  min-height: calc(100vh - 549px);
+  margin: 100px 0;
+
+  @media (min-width: 600px) {
+    min-height: calc(100vh - 657px);
+  }
+}

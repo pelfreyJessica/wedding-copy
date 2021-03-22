@@ -1,0 +1,15 @@
+.question-answer {
+    margin: 50px auto;
+    max-width: 800px;
+
+    &__question {
+        font-size: 36px;
+        margin: 20px;
+        letter-spacing: 4px;
+    }
+
+    &__answer {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+}

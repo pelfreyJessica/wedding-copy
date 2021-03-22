@@ -1,0 +1,59 @@
+.rsvp-form {
+    margin: 50px auto;
+    padding: 50px;
+    border: 6px double white;
+    max-width: 600px;
+
+    &__input {
+        height: 30px;
+        margin: 10px 0;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    &__label {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    &__radio {
+        margin: 30px 0;
+
+        &-input {
+            margin: 10px 30px 10px 10px;
+            height: 15px;
+            width: 15px;
+        }
+
+        &-label {
+            font-size: 30px;
+        }
+    }
+
+    &__btn {
+        height: 50px;
+        width: 200px;
+        background-color: #b8d9a5;
+        color: #05065a;
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+        }
+    }
+}
+
+.success-message {
+    display: block;
+    font-size: 60px;
+    margin: 100px;
+}
+
+.error-message {
+    display: block;
+    font-size: 60px;
+    margin: 100px;
+    color: red;
+}

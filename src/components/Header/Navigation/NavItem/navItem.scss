@@ -1,0 +1,16 @@
+.nav__item {
+    color: #B8D9A5;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: solid 1px transparent;
+
+    @media (min-width: 500px) {
+        font-size: 26px;
+    }
+
+    &:hover,
+    &:focus {
+        border-bottom: solid 1px #B8D9A5;
+        cursor: pointer;
+    }
+}

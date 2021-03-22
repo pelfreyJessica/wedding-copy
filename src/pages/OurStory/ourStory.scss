@@ -1,0 +1,32 @@
+.story {
+    margin: 0 auto;
+
+    &__heading {
+        font-size: 60px;
+        margin: 0 0 60px;
+
+    }
+
+    &__subheading {
+        font-size: 40px !important;
+        margin: 60px 0 40px !important;
+    }
+
+    &__text {
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 1.25px;
+        font-size: 16px;
+        line-height: 25px;
+        margin: 20px auto;
+        text-align: left;
+
+        @media (min-width: 600px) {
+            max-width: 700px;
+        }
+    }
+
+    &__photo {
+        width: 50%;
+        margin: 10px auto;
+    }
+}

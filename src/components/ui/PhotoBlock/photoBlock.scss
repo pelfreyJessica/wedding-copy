@@ -1,0 +1,13 @@
+.photo-block {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    width: 940px;
+
+    &__photo {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+}
